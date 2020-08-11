@@ -1,0 +1,454 @@
+body{
+    text-align: center;
+    margin: 0%;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid rgba(33,37,44,.1);
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    /* height: 50px; */
+    align-items: center;
+    margin:0 auto;
+}
+#inner{
+    /* width:1180px; */
+    display: flex;
+    flex-direction: row;
+    /* margin: 0 auto; */
+}
+
+ #left{
+    margin: 0;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid grey;
+    
+}
+#left a img{
+    width: 20px;
+    height: 30px;
+    background-color: black;
+    color: black;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    height: 100%;
+    align-items: center;
+}
+#menu ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin:0;
+    padding: 0;
+    background-color: white;
+    width: fit-content;
+}
+
+
+#menu li{
+    height: 100%;
+    padding:0 10px 0; 
+}
+
+
+#menu ul li a{
+    color: #999;
+    font-size: 12px;
+    padding: 5px;
+    text-transform: uppercase;
+    display: flex;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color: grey;
+}
+#search{
+    border: 0;
+    height: 3.5rem;
+    border-left: 1px solid rgba(33,37,44,.1);
+    
+}
+
+#search:focus {
+    border: none;
+
+    /* background-color: blue; */
+}
+#account{
+    display: flex;
+    width: 25%;
+    /* justify-content: space-around; */
+    padding: 0 20px 0;
+    align-items: center;
+}
+
+#account a{
+    padding: 10px;
+}
+
+
+#intro{
+    /* width:1180px;
+    margin: 0 auto; */
+    
+}
+
+#covidButton{
+    background-color: rgb(31, 50, 85);
+    color: lavender;
+    margin-top: 25px;
+    border: 50px;
+    box-sizing: initial;
+    width: 100%;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    
+    
+}
+
+#covidButton:hover{
+    background-color: rgb(18, 18, 54);
+}
+
+#introContent{
+    padding:100px 0 50px;
+    /* margin:0 100px 0 ; */
+    /* width: 70%; */
+    width: 80%;
+    margin:0 auto;
+}
+
+#logoImage{
+    /* margin-top: 40px; */
+    height: 30px;
+    width: 200px;
+}
+
+#pJoin{
+    /* padding-right: 12%; */
+    /* padding-left: 12%;  */
+    /* font-size: 70px; */
+    text-align: center;
+    width: 100%; 
+    margin: 0; 
+    font-size:55px;
+    font-weight: bolder;
+}
+
+
+
+#pExperience{
+    font-size: 25px;
+    margin: 25px 100px 0;
+    line-height: 40px;
+}
+
+#features{
+    display: flex;  
+    justify-content: space-between;
+
+}
+
+.featuresList{
+    /* display: inline-block; */
+    width: 30%;
+    text-align: left; 
+}
+
+.featuresList button{
+    padding: 5% 10% 5%;
+    /* width: 50%; */
+    font-size: 17px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+}
+
+
+
+.featuresList p{
+
+    font-size: 16px;
+    /* font-weight: lighter; */
+    text-align: left;
+    line-height: 25px;
+    /* width: 70%; */
+}
+
+
+.featuresHeading{
+    display: flex;
+    justify-content: space-between;
+    /* width: 50%; */
+    text-align: left;
+      
+}
+
+.featuresHeading img{
+    /* display: inline-block; */
+    width: 50px;
+    height: 50px;
+}
+
+.startupButton{
+    background-color: rgb(0, 110, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.startupButton:hover{
+    background-color: rgb(21, 85, 168);
+    
+}
+
+.investorButton{
+    background-color: rgb(42, 10, 133);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.investorButton:hover{
+    background-color: rgb(31, 7, 95);
+}
+
+.productButton{
+    background-color: rgb(184, 81, 12);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.productButton:hover{
+    background-color: rgb(122, 53, 7);
+}
+.angelList{
+    /* margin: 0 auto;
+    width:1180px; */
+    margin-top: 150px;
+    text-align: left;
+}
+
+.angelList img{
+    
+    float: right;
+    width: 45%;
+    height: 500px;   
+}
+.angelList h1{
+    font: 50px bolder;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.angelElements{
+    display: flex;
+    justify-content: space;
+}
+.angelListFeatures{
+    /* font-size: 20px; */
+    width:50%;
+    padding-right: 10px;
+}
+.angelElements>p{
+    font-size: 20px;
+}
+.angelListDetails{
+    width: 50%;
+}
+.angelList h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.angelListDetails>p{
+    font-size: 25px;
+    line-height: 35px;
+
+}
+.angelListDetails button{
+    padding: 20px 35px 20px;
+    color:white;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 0;
+}
+
+.angelListDetails a{
+    padding: 10px;
+    color: rgb(0, 110, 255);
+    text-decoration: none;
+}
+.angelListDetails a:hover{
+    text-decoration: underline;
+}
+#techCompanies>p{
+    font-size: 27px;
+    font-weight: bold;
+   
+}
+#techCompanies{
+    /* padding-right: 10%;
+    padding-left: 10%; */
+    /* margin: 100px auto;
+    width:1180px; */
+}
+#comapniesList{
+    /* display: flex; */
+}
+.companies img{
+    padding-left: 5%;
+    padding-top: 5%;
+    float: left;
+    width:50px;
+    height:50px;
+}
+
+.companies{
+    border-radius: 5px;
+    display: inline-block;
+    width: 350px;
+    height: 100px;
+    border: 1px solid;
+    margin:0px 20px 20px 0px;
+
+}
+.companyDes{
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#techCompanies a{
+    color:rgb(0, 110, 255);
+    text-decoration: none;
+    font-size: 15px;
+}
+#techCompanies a:hover{
+    text-decoration: underline;
+}
+
+#techCompanies .companies a{
+    color: black;
+    text-decoration: underline;
+}
+
+#blogsList{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* margin: 50px auto 50px;
+    width: 1180px; */
+}
+#blogshead{
+    display: flex;
+    /* background-color: lawngreen; */
+    justify-content: space-between;
+}
+
+#blogshead p:first-child {
+    /* display: inline-block; */
+    text-align: left;
+    font-size: 30px;
+    /* margin-right: 60%; */
+
+}
+/*  */
+
+#blogshead p:last-child a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(0, 110, 255);
+    
+}
+#blogshead p:last-child a:hover{
+    text-decoration: underline;
+}
+#previewBlogs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogs{
+    /* display: inline-block; */
+    width: 30%;
+}
+
+.blogs img{
+    width:100%;
+    height:45%;
+}
+.blogs p{
+    font-size: 17px;
+    text-align: left;
+}
+
+.blogs p:nth-last-child(2) a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10%;
+
+}
+
+.blogs p:nth-last-child(2) a:hover{
+    text-decoration: underline;
+}
+
+/* @media screen and (max-width:720px){
+    .featuresList, .companies, .blogs {
+        width: 100%;
+    }
+} */
+
+
+@media screen and (max-width:1700px){
+    #inner, #intro, .angelList, #techCompanies, #blogsList{
+        width:1180px;
+        margin:0 auto;
+    }
+}
+
+
+@media screen and (max-width:1140px){
+    #inner, #intro, .angelList, #techCompanies, #blogsList{
+        width:90%;
+        padding:0 30px 0;
+        margin:0;
+    }
+    #covidButton{
+        height: 7px;
+        align-items: center;
+        font-size: small;
+    }
+
+    #pJoin{
+        font-size:30px ;
+    }
+    #pExperience{
+        font-size: 20px;
+        line-height: 30px;
+        margin:25px 50px 0;
+    }
+
+    .angelListDetails h1{
+        font-size:30px ;
+    }
+
+    .angelListDetails>p{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .angelElements{
+        flex-direction: column;
+    }
+    .angelListFeatures{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:990px){
+    #searchBar{
+        display: none;
+    }
+}
