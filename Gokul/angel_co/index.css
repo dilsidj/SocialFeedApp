@@ -17,7 +17,7 @@ header{
     /* width:1180px; */
     display: flex;
     flex-direction: row;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
  #left{
@@ -374,6 +374,7 @@ header{
 }
 #comapniesList{
     /* display: flex; */
+
 }
 .companies img{
     padding-left: 5%;
@@ -487,11 +488,16 @@ header{
 
 
 @media screen and (max-width:1140px){
-    #inner, #intro, .angelList, #techCompanies, #blogsList{
+    #intro, .angelList, #techCompanies, #blogsList{
         width:90%;
         padding:0 30px 0;
         margin:0;
     }
+
+    #inner{
+        width: 100%;
+    }
+
     #covidButton{
         height: 7px;
         align-items: center;
@@ -535,7 +541,7 @@ header{
 
 @media screen and (max-width:720px){
     #introContent{
-        padding:50px 0 50px;
+        padding:40px 0 40px;
         /* margin:0 100px 0 ; */
         /* width: 70%; */
         width: 100%;
@@ -543,7 +549,7 @@ header{
     }
     #logoImage{
         width: 100px;
-        height:20px ;
+        height:17px ;
     }
     #pExperience{
         display: none;
@@ -571,7 +577,7 @@ header{
         /* width: 50%; */
         width:210px;
         margin: 0 auto;
-        background-color: lawngreen;
+        
           
     }
     
@@ -580,8 +586,12 @@ header{
         width: 50px;
         height: 50px;
         text-align: center;
+        order: 1;
+        margin:20px auto 0;
     }
-
+    .featuresHeading h2{
+        order: 2;
+    }
     .companies{
         margin-right: 0;
         width: 100%;
