@@ -165,7 +165,7 @@ header{
 }
 
 .featuresList button{
-    padding: 5% 10% 5%;
+    padding: 20px 40px 20px;
     /* width: 50%; */
     font-size: 17px;
     font-weight: bolder;
@@ -445,11 +445,98 @@ header{
     .angelListFeatures{
         width: 100%;
     }
+    .blogs img{
+        height: 40%;
+    }
 
 }
 
 @media screen and (max-width:990px){
     #searchBar{
         display: none;
+    }
+}
+
+@media screen and (max-width:720px){
+    #introContent{
+        padding:50px 0 50px;
+        /* margin:0 100px 0 ; */
+        /* width: 70%; */
+        width: 100%;
+        margin:0;
+    }
+    #logoImage{
+        width: 100px;
+        height:20px ;
+    }
+    #pExperience{
+        display: none;
+    }
+    .featuresList{
+        /* display: inline-block; */
+        width: 100%;
+        text-align: center; 
+    }
+
+    #features{
+        display: flex; 
+        flex-direction: column; 
+        /* justify-content: space-between; */
+    
+    }
+    .featuresList p{
+        text-align: center;
+    }
+
+    .featuresHeading{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* width: 50%; */
+        width:210px;
+        margin: 0 auto;
+        background-color: lawngreen;
+          
+    }
+    
+    .featuresHeading img{
+        /* display: inline-block; */
+        width: 50px;
+        height: 50px;
+        text-align: center;
+    }
+
+    .companies{
+        margin-right: 0;
+        width: 100%;
+    }
+    .angelList img{
+        float: right;
+        /* width: 45%; */
+        /* height: 500px; */
+        width:100px;
+        height: 100px;
+        right: 0;
+        top:10px;
+    }
+    .angelList{
+        width:100%;
+    }
+    .angelListDetails{
+        width: 100%;
+    }
+    /* .productButton{
+        width:20px;
+        height: 20px;
+    } */
+    .blogs{
+        /* display: inline-block; */
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    #previewBlogs{
+        flex-direction: column;
+        width: 100%;
+        
     }
 }
