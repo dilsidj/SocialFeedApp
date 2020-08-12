@@ -404,13 +404,15 @@ header{
     font-size: 15px;
 }
 #techCompanies a:hover{
-    text-decoration: underline;
+    text-decoration:underline;
+
 }
 
 #techCompanies .companies a{
     color: black;
     text-decoration: underline;
 }
+
 
 #blogsList{
     margin-top: 50px;
