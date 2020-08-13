@@ -14,15 +14,16 @@ header{
     margin:0 auto;
 }
 #inner{
-    /* width:1180px; */
+    width:1180px;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
  #left{
     margin: 0;
-    width: 2000px;
+    /* width: 2000px; */
     display: flex;
     align-items: center;
     /* border-right: 1px solid grey; */
@@ -33,10 +34,17 @@ header{
 }
 #left a img{
     width: 20px;
-    height: 30px;
+    /* height: 30px; */
     /* background-color: black;
     color: black; */
 }
+
+#right{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+}
+
 #menu{
     display: flex;
     flex-direction: row;
@@ -135,9 +143,9 @@ header{
     align-items: center;
 }
 #searchBar i{
-    height: 3px;
-    width: 3px;
-    margin: 0px 10px 10px 10px;
+    height: 2.5px;
+    width: 2.5px;
+    margin: 0px 10px 12.5px 10px;
 }
 #search{
     /* border: 0; */
@@ -172,8 +180,9 @@ header{
 
 
 #intro{
-    /* width:1180px;
-    margin: 0 auto; */
+    width:1180px;
+    margin: 0 auto;
+    /* margin-bottom: 1000px; */
     
 }
 
@@ -273,7 +282,7 @@ header{
 .featuresHeading img{
     /* display: inline-block; */
     width: 50px;
-    height: 50px;
+    /* height: 50px; */
 }
 
 .startupButton{
@@ -303,8 +312,8 @@ header{
     background-color: rgb(122, 53, 7);
 }
 .angelList{
-    /* margin: 0 auto;
-    width:1180px; */
+    margin: 0 auto;
+    width:1180px;
     margin-top: 150px;
     text-align: left;
 }
@@ -313,7 +322,7 @@ header{
     
     float: right;
     width: 45%;
-    height: 500px;   
+    /* height: 500px;    */
 }
 .angelList h1{
     font: 50px bolder;
@@ -369,8 +378,8 @@ header{
 #techCompanies{
     /* padding-right: 10%;
     padding-left: 10%; */
-    /* margin: 100px auto;
-    width:1180px; */
+    margin: 100px auto;
+    width:1180px;
 }
 #comapniesList{
     /* display: flex; */
@@ -381,7 +390,7 @@ header{
     padding-top: 5%;
     float: left;
     width:50px;
-    height:50px;
+    /* height:50px; */
 }
 
 .companies{
@@ -404,8 +413,7 @@ header{
     font-size: 15px;
 }
 #techCompanies a:hover{
-    text-decoration:underline;
-
+    text-decoration: underline;
 }
 
 #techCompanies .companies a{
@@ -413,12 +421,11 @@ header{
     text-decoration: underline;
 }
 
-
 #blogsList{
     margin-top: 50px;
     margin-bottom: 50px;
-    /* margin: 50px auto 50px;
-    width: 1180px; */
+    margin: 50px auto 50px;
+    width: 1180px;
 }
 #blogshead{
     display: flex;
@@ -456,7 +463,7 @@ header{
 
 .blogs img{
     width:100%;
-    height:45%;
+    /* height:45%; */
 }
 .blogs p{
     font-size: 17px;
@@ -481,12 +488,12 @@ header{
 } */
 
 
-@media screen and (max-width:1700px){
+/* @media screen and (min-width:1140px){
     #inner, #intro, .angelList, #techCompanies, #blogsList{
-        width:1180px;
+        width:1140px;
         margin:0 auto;
     }
-}
+} */
 
 
 @media screen and (max-width:1140px){
@@ -497,7 +504,8 @@ header{
     }
 
     #inner{
-        width: 100%;
+        /* width: 100%; */
+        padding:0 15px ;
     }
 
     #covidButton{
@@ -530,7 +538,7 @@ header{
         width: 100%;
     }
     .blogs img{
-        height: 40%;
+        /* height: 40%; */
     }
 
 }
@@ -586,7 +594,7 @@ header{
     .featuresHeading img{
         /* display: inline-block; */
         width: 50px;
-        height: 50px;
+        /* height: 50px; */
         text-align: center;
         order: 1;
         margin:20px auto 0;
@@ -603,7 +611,7 @@ header{
         /* width: 45%; */
         /* height: 500px; */
         width:100px;
-        height: 100px;
+        /* height: 100px; */
         right: 0;
         top:10px;
     }
