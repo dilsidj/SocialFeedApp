@@ -142,18 +142,23 @@ header{
     align-items: center;
 }
 #searchBar i{
-    height: 2.5px;
-    width: 2.5px;
-    margin: 0px 10px 12.5px 10px;
+    margin: 0px 5px 0px 10px;
+    color:rgb(196, 195, 195);
 }
+
+#searchBar i:hover{
+    color:rgb(66, 66, 66);
+}
+
 #search{
     /* border: 0; */
     height: 3.5rem;
+    width: 150px;
     /* border-left: 1px solid rgba(33,37,44,.1); */
     border: hidden;
     margin-left: 2px;
     outline: none;
-    /* font-size: 15px; */
+
     
 }
 
@@ -186,7 +191,7 @@ header{
 }
 
 #covidButton{
-    background-color: rgb(31, 50, 85);
+    background-color: rgb(56, 80, 117);
     color: lavender;
     margin-top: 25px;
     border: 50px;
@@ -200,7 +205,7 @@ header{
 }
 
 #covidButton:hover{
-    background-color: rgb(18, 18, 54);
+    background-color: rgb(38, 55, 80);
 }
 
 #introContent{
@@ -213,8 +218,8 @@ header{
 
 #logoImage{
     /* margin-top: 40px; */
-    height: 30px;
-    width: 200px;
+    /* height: 30px; */
+    width: 160px;
 }
 
 #pJoin{
@@ -280,7 +285,7 @@ header{
 
 .featuresHeading img{
     /* display: inline-block; */
-    width: 50px;
+    width: 70px;
     /* height: 50px; */
 }
 
@@ -323,10 +328,13 @@ header{
     width: 45%;
     /* height: 500px;    */
 }
-.angelList h1{
-    font: 50px bolder;
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
+.angelListDetails h1{
+    /* font-size: 70px; */
+    /* font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif; */
+    font: 900 normal normal 60px/normal Arial, Helvetica, sans-serif ;
+    /* margin-bottom:0 0 50px 0; */
+    margin-top: 0;
 }
 .angelElements{
     display: flex;
@@ -337,20 +345,20 @@ header{
     width:50%;
     padding-right: 10px;
 }
-.angelElements>p{
-    font-size: 20px;
+.angelListFeatures>p{
+    font-size: 17px;
+    line-height: 1.5;
+    
 }
 .angelListDetails{
     width: 50%;
 }
-.angelList h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-}
+
 
 .angelListDetails>p{
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 24px;
+    line-height: 1.5;
+    /* letter-spacing: .1rem; */
 
 }
 .angelListDetails button{
