@@ -1,3 +1,33 @@
+@font-face { 
+    font-family: Founders-Grotesk; 
+    src: url('Fonts/FoundersGroteskText/FoundersGroteskText.ttf') format('truetype');
+    src: url('Fonts/FoundersGroteskText/FoundersGrotesk-Bold.eot') format('embedded-opentype'); 
+    src: url('Fonts/FoundersGroteskText/FoundersGrotesk-Bold.otf');
+    src: url('Fonts/FoundersGroteskText/FoundersGrotesk-Bold.svg') format('svg');
+    src: url('Fonts/FoundersGroteskText/FoundersGrotesk-Bold.woff') format('woff');
+    src: url('Fonts/FoundersGroteskText/FoundersGrotesk-Bold.woff2');
+} 
+
+@font-face { 
+    font-family: Founders-Grotesk-normal; 
+    src: url('Fonts/FoundersGroteskTextNormal/FoundersGroteskText.ttf') format('truetype');
+    src: url('Fonts/FoundersGroteskTextNormal/FoundersGrotesk-Bold.eot') format('embedded-opentype'); 
+    src: url('Fonts/FoundersGroteskTextNormal/FoundersGrotesk-Bold.otf');
+    src: url('Fonts/FoundersGroteskTextNormal/FoundersGrotesk-Bold.svg') format('svg');
+    src: url('Fonts/FoundersGroteskTextNormal/FoundersGrotesk-Bold.woff') format('woff');
+    src: url('Fonts/FoundersGroteskTextNormal/FoundersGrotesk-Bold.woff2');
+} 
+
+@font-face { 
+    font-family: Founders-Grotesk-medium; 
+    src: url('Fonts/FoundersGrotesk-Medium/FoundersGrotesk-Medium.ttf') format('truetype');
+    src: url('Fonts/FoundersGrotesk-Medium/FoundersGrotesk-Medium.eot') format('embedded-opentype'); 
+    src: url('Fonts/FoundersGrotesk-Medium/FoundersGrotesk-Medium.otf');
+    src: url('Fonts/FoundersGrotesk-Medium/FoundersGrotesk-Medium.svg') format('svg');
+    src: url('Fonts/FoundersGrotesk-Medium/FoundersGrotesk-Medium.woff') format('woff');
+    src: url('Fonts/FoundersGrotesk-Medium/FoundersGrotesk-Medium.woff2');
+} 
+
 body{
     text-align: center;
     margin: 0%;
@@ -165,6 +195,7 @@ header{
 
 #search::placeholder{
         color:#999 ;
+        font-size: 12px;
 }
 
 
@@ -203,15 +234,16 @@ header{
     border: 50px;
     padding: 12px;
     border-radius: 5px;
-    font-weight: 300;   
-}
-#covidButton a{
+    font-weight: 600;
     font-size: 14px;
     line-height:1.5;
-    font-weight: 500;
-    word-spacing: 2px;
+}
+#covidButton a{
+
+    font-weight: 600;
     color: rgb(253, 253, 253);
     text-decoration: none;
+    font-family: -apple-system,blinkmacsystemfont,Segoe UI,helvetica,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;   
 }
 #covidButton:hover{
     background-color: rgb(38, 55, 80);
@@ -228,7 +260,7 @@ header{
 #logoImage{
     /* margin-top: 40px; */
     /* height: 30px; */
-    width: 160px;
+    width: 150px;
 }
 
 #pJoin{
@@ -238,16 +270,19 @@ header{
     text-align: center;
     width: 100%; 
     margin: 0; 
-    font-size:55px;
+    font-size:70px;
+    line-height: 1.05;
     font-weight: bolder;
+    font-family:Founders-Grotesk,sans-serif;
 }
 
 
 
 #pExperience{
-    font-size: 25px;
+    font-size: 24px;
     margin: 25px 100px 0;
     line-height: 40px;
+    font-family: -apple-system,blinkmacsystemfont,Segoe UI,helvetica,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
 }
 
 #features{
@@ -263,13 +298,15 @@ header{
 }
 
 .featuresList button{
-    padding: 20px 40px 20px;
-    /* width: 50%; */
-    font-size: 17px;
-    font-weight: bolder;
+    /* padding: 16px 32px 16px;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 500;
     border-radius: 5px;
     border: 0;
     color: white;
+    font-family:Founders-Grotesk-medium,sans-serif; */
+
 }
 
 
@@ -279,7 +316,9 @@ header{
     font-size: 16px;
     /* font-weight: lighter; */
     text-align: left;
-    line-height: 25px;
+    font-family:Segoe UI,helvetica,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    margin-top: 0;
+    margin-bottom: 24px;
     /* width: 70%; */
 }
 
@@ -289,7 +328,12 @@ header{
     justify-content: space-between;
     /* width: 50%; */
     text-align: left;
-      
+}
+
+.featuresHeading h2{
+    font-size: 22px;
+    font-family: Founders-Grotesk-normal,sans-serif;
+    line-height: 1.25;
 }
 
 .featuresHeading img{
@@ -300,7 +344,18 @@ header{
 
 .startupButton{
     background-color: rgb(0, 110, 255);
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 32px 16px;
+    /* width: 50%; */
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-family:Founders-Grotesk-medium,sans-serif;
+
+
+    /* font-family:Founders-Grotesk-medium,sans-serif; */
 }
 
 .startupButton:hover{
@@ -310,7 +365,15 @@ header{
 
 .investorButton{
     background-color: rgb(42, 10, 133);
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 32px 16px;
+    /* width: 50%; */
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-family:Founders-Grotesk-medium,sans-serif;
 }
 
 .investorButton:hover{
@@ -319,7 +382,15 @@ header{
 
 .productButton{
     background-color: rgb(184, 81, 12);
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 32px 16px;
+    /* width: 50%; */
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-family:Founders-Grotesk-medium,sans-serif;
 }
 .productButton:hover{
     background-color: rgb(122, 53, 7);
@@ -338,13 +409,20 @@ header{
     /* height: 500px;    */
 }
 .angelListDetails h1{
-    font-size: 55px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: Founders-Grotesk,sans-serif;
+    
     /* font: 900 normal normal 70px/normal Arial, Helvetica, sans-serif ; */
     /* margin-bottom:0 0 50px 0; */
     margin-top: 0;
 }
+
+.angelListDetails h3{
+    margin:0px 0px 5px 0px;
+}
+
+
 .angelElements{
     display: flex;
     justify-content: space;
@@ -354,10 +432,16 @@ header{
     width:50%;
     padding-right: 10px;
 }
+.angelListFeatures h3{
+    line-height: 1.4;
+    font-size: 20px;
+    font-family: Founders-Grotesk-normal,sans-serif;
+}
+
 .angelListFeatures>p{
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.5;
-    
+    font-family: Segoe UI;
 }
 .angelListDetails{
     width: 50%;
@@ -368,15 +452,16 @@ header{
     font-size: 24px;
     line-height: 1.5;
     /* letter-spacing: .1rem; */
+    font-family: Segoe UI;
 
 }
-.angelListDetails button{
+/* .angelListDetails button{
     padding: 20px 35px 20px;
     color:white;
     border-radius: 5px;
     font-weight: bolder;
     border: 0;
-}
+} */
 
 .angelListDetails a{
     padding: 10px;
@@ -447,13 +532,15 @@ header{
     display: flex;
     /* background-color: lawngreen; */
     justify-content: space-between;
+
 }
 
 #blogshead p:first-child {
     /* display: inline-block; */
     text-align: left;
-    font-size: 30px;
+    font-size: 32px;
     /* margin-right: 60%; */
+    font-family: Founders-Grotesk,sans-serif;
 
 }
 /*  */
@@ -462,6 +549,8 @@ header{
     text-decoration: none;
     font-size: 15px;
     color: rgb(0, 110, 255);
+    font-size: 16px;
+    line-height: 1.5;
     
 }
 #blogshead p:last-child a:hover{
@@ -470,6 +559,8 @@ header{
 #previewBlogs{
     display: flex;
     justify-content: space-between;
+    /* font-family: Segoe UI,helvetica,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji; */
+    
 }
 
 .blogs{
@@ -485,12 +576,20 @@ header{
     font-size: 17px;
     text-align: left;
 }
-
+.blogs p:last-child{
+    font-family: Segoe UI,helvetica,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size: 16px;
+    line-height: 1.5;
+}
 .blogs p:nth-last-child(2) a{
     text-decoration: none;
     color: black;
     padding-bottom: 10%;
-
+    font-family: Founders-Grotesk-medium,sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    font-size: bold;
+    font-weight: 200;
 }
 
 .blogs p:nth-last-child(2) a:hover{
@@ -528,6 +627,7 @@ header{
         height: 7px;
         align-items: center;
         font-size: small;
+        
     }
 
     #pJoin{
