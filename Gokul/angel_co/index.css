@@ -19,6 +19,17 @@
 } 
 
 @font-face { 
+    font-family: Founders-Grotesk-regular; 
+    src: url('Fonts/FoundersGroteskRegular/FoundersGroteskRegular.ttf') format('truetype');
+    src: url('Fonts/FoundersGroteskRegular/FoundersGroteskRegular.eot') format('embedded-opentype'); 
+    src: url('Fonts/FoundersGroteskRegular/FoundersGroteskRegular.otf');
+    src: url('Fonts/FoundersGroteskRegular/FoundersGroteskRegular.svg') format('svg');
+    src: url('Fonts/FoundersGroteskRegular/FoundersGroteskRegular.woff') format('woff');
+    src: url('Fonts/FoundersGroteskRegular/FoundersGroteskRegular.woff2');
+} 
+
+
+@font-face { 
     font-family: Founders-Grotesk-medium; 
     src: url('Fonts/FoundersGrotesk-Medium/FoundersGrotesk-Medium.ttf') format('truetype');
     src: url('Fonts/FoundersGrotesk-Medium/FoundersGrotesk-Medium.eot') format('embedded-opentype'); 
@@ -331,8 +342,8 @@ header{
 }
 
 .featuresHeading h2{
-    font-size: 22px;
-    font-family: Founders-Grotesk-normal,sans-serif;
+    font-size: 24px;
+    font-family: Founders-Grotesk-regular,sans-serif;
     line-height: 1.25;
 }
 
@@ -540,7 +551,7 @@ header{
     text-align: left;
     font-size: 32px;
     /* margin-right: 60%; */
-    font-family: Founders-Grotesk,sans-serif;
+    font-family: Founders-Grotesk-regular,sans-serif;
 
 }
 /*  */
