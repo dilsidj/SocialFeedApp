@@ -637,9 +637,15 @@ header{
     }
 
     #covidButton{
-        height: 7px;
+        /* height: 7px; */
         align-items: center;
         font-size: small;
+        padding: 8px;
+        
+    }
+
+    #covidButton a{
+        align-items: center;
         
     }
 
