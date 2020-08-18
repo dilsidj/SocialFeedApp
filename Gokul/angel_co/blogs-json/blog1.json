@@ -5,25 +5,30 @@
     "blogImage":"images\\Angelist_Illustration_optimized.jpg",
     "blogImageName":"blog Image",
     "author":"Caleb Kaiser",
+    "authorLink":"#",
+    "org":"AngelList Talent",
     "photo-credict":"Mariya Pilipenko",
-    "table-of-content":[
-        "1. If you want to make more money",
-        "2. If you want to advance your career quickly",
-        "3. If you want a great culture above all else",
-        "Never ignore red flags—regardless of your priority"
-    ],
-
-    "intro":[
-        "You're trying to evaluate the company while still impressing your interviewers, and that balance can be tricky. At the same time, candidates have a tendency to make this process harder than it needs to be by being uncertain of what they actually want out of a company.",
-        "Understanding what you want out of a new job is a prerequisite to joining the right startup. Before you apply for any new jobs, you need to figure out what your top priority in a new role is. For most candidates, this will be one of three things:",
-        [
-            "Compensation","Career","Culture"
-        ],
-        "For each of these priorities, we have broken down 10 questions that will help you vet whether or not a startup will satisfy your goal.",
-        "Note: There can certainly be overlap. Wanting more cash and a better culture aren't mutually exclusive goals. In reality, however, one of these priorities is going to be more important to you than the others."
-    ],
+    "photo-credictLink":"#",
+    
 
     "main_content":{
+
+        "table-of-content":[
+            "1. If you want to make more money",
+            "2. If you want to advance your career quickly",
+            "3. If you want a great culture above all else",
+            "Never ignore red flags—regardless of your priority"
+        ],
+
+        "intro":[
+            "You're trying to evaluate the company while still impressing your interviewers, and that balance can be tricky. At the same time, candidates have a tendency to make this process harder than it needs to be by being uncertain of what they actually want out of a company.",
+            "Understanding what you want out of a new job is a prerequisite to joining the right startup. Before you apply for any new jobs, you need to figure out what your top priority in a new role is. For most candidates, this will be one of three things:",
+            [
+                "Compensation","Career","Culture"
+            ],
+            "For each of these priorities, we have broken down 10 questions that will help you vet whether or not a startup will satisfy your goal.",
+            "Note: There can certainly be overlap. Wanting more cash and a better culture aren't mutually exclusive goals. In reality, however, one of these priorities is going to be more important to you than the others."
+        ],
 
         "blockElement":{
             "title":"1. If you want to make more money",
