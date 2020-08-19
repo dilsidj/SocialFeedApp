@@ -292,7 +292,7 @@ header{
     color: rgb(0, 110, 255);
 }
 
-.introduction p{
+#introduction p{
     font-size: 24px;
     line-height: 1.4;
     margin-top: 16px;
@@ -300,7 +300,7 @@ header{
 }
 
 
-.blogImage{
+#blogImage{
     /* width: 100%; */
     flex-basis: 83.3333%;
     margin-left: 8.3333%;
@@ -350,7 +350,7 @@ header{
     display: block;
 }
 
-.tableContent{
+#tableContent{
     
     border:1px solid #0f6fff;
     border-radius: 5px;
@@ -361,13 +361,13 @@ header{
 
 }
 
-.tableContent p{
+#tableContent p{
     font-size: 14px;
     font-weight: 700;
     color: rgb(15, 111, 255);
 }
 
-.tableContent a{
+#tableContent a{
     text-align: left;
     color: black;
     display: inline-block;
@@ -380,11 +380,11 @@ header{
     margin-top: 16px;
 }
 
-.tableContent li{
+#tableContent li{
     list-style: none;
 }
 
-.tableContent ol{
+#tableContent ol{
     padding: 0;
 }
 

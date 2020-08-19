@@ -7,8 +7,8 @@
     "author":"Caleb Kaiser",
     "authorLink":"#",
     "org":"AngelList Talent",
-    "photo-credict":"Mariya Pilipenko",
-    "photo-credictLink":"#",
+    "photo_credits":"Mariya Pilipenko",
+    "photo_creditsLink":"#",
     
 
     "main_content":{
@@ -30,7 +30,7 @@
             "Note: There can certainly be overlap. Wanting more cash and a better culture aren't mutually exclusive goals. In reality, however, one of these priorities is going to be more important to you than the others."
         ],
 
-        "blockElement":{
+        "blockElement1":{
             "title":"1. If you want to make more money",
             "content":[
                 "If you want to work in tech and make the most money possible, you should be applying to tech giants (think Facebook, Amazon, Apple, Google). Simply put, they offer the highest compensation in the industry.",
@@ -77,7 +77,7 @@
                 }
             ]
         },
-        "blockElement":{
+        "blockElement2":{
             "title":"2. If you want to advance your career quickly",
             "content":[
                 "If you're looking to move forward in your career—whether that means stepping into more senior positions, or switching to a different role entirely—you need to use a completely different framework for evaluating this startup.",
@@ -125,7 +125,7 @@
             ]
 
         },
-        "blockElements":{
+        "blockElement3":{
             "title":"3. If you want a great culture above all else",
             "content":[
                 "For many candidates, working in a company where culture fits their lifestyle is far more important than maximizing their income or career potential. To evaluate how well you'll fit into a startup's culture, you need to do three things:","However, for many people, working at a startup will always be preferable to working at a giant corporation. Some people prefer the high risk, high reward potential of owning equity in a startup. Others simply can't work in a non-startup environment.",
@@ -170,7 +170,7 @@
                 }
             ]
         },
-        "blockElements":{
+        "blockElement4":{
             "title":"Never ignore red flags—regardless of your priority",
             "content":[
                 "Just because you choose to vet a company for one of the above priorities doesn't mean you can completely ignore the others. A company in great financial shape is still likely to fail if they have an absolutely toxic culture. A company with an amazing culture will fail if they can't make money.",
