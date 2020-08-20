@@ -375,6 +375,10 @@ header{
     margin-bottom: 8px;
     font-size: 14px;
 }
+#tableContent a:hover{
+    color:rgb(15, 111, 255);
+}
+
 
 .tableContent nav{
     margin-top: 16px;

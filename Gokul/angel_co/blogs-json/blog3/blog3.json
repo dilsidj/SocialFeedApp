@@ -1,0 +1,61 @@
+{
+    "date":"Mar 7, 2019",
+    "title":"Why Naval Ravikant Thinks Remote Work Is The Future",
+    "blogDescription":"\"We're going to see an era of everyone employing remote tech workers.\"",
+    "blogImage":"..\\images\\ANGELLIST_ARTICLE3_optimized.jpg",
+    "blogImageName":"blog Image",
+    "author":"Caleb Kaiser",
+    "authorLink":"#",
+    "org":"AngelList Talent",
+    "photo_credits":"Helena Covell",
+    "photo_creditsLink":"#",
+
+    "main_content":{
+        "table-of-content":[
+            "On why traditional, on-premise work can be counter-productive",
+            "On why companies are hesitant to change to remote work",
+            "On why remote work is the future",
+            "On where remote work is already catching on"
+        ],
+        "intro":[
+            "It feels like the rise of remote works has been a top conversation in tech for years, but despite the enthusiasm and attention it receives, we've yet to turn the corner on making remote work a norm.",
+            "AngelList Founder Naval Ravikant, however, says he thinks remote work's time is coming. “It is probably going to be the single most important new category in hiring,” he says.",
+            "When pressed further, he offered the following thoughts:"
+        ],
+
+        "blockElement":[
+            {
+            "title":"On why traditional, on-premise work can be counter-productive",
+            "content":[
+                "“Nothing is going to replace in-person, human warmth and communication. When two humans are in a room next to each other, they communicate at a much higher bandwidth through all kinds of subtle, physical signals than they do over video. And even that's much greater than over audio. This hidden, high-bandwidth human communication is only possible in person.",
+                "“But you don't need that all the time. When you're sitting at your desk, you know what to do, and you just have work to crank it out, but your boss walks by, you're suddenly going to have this high-bandwidth communication whether you like it or not. It's going to suck a lot of energy out of you. Or maybe you're not feeling super productive today, and you'd rather work on Saturday. You don't get that choice. Yeah, you can not show up, and you might have a flexible work environment, but there's still the social pressure of, 'My desk is sitting empty while everybody else's in the office.'”"
+            ]
+        },
+
+        {
+            "title":"On why companies are hesitant to change to remote work",
+            "content":[
+                "“Companies pay lip service to it, but the best companies still are slow about it. They're hesitant. And the reason they're hesitant is because they're basically saying, 'How do I know this person is great? How do I evaluate, motivate, manage someone who's remote?' I think companies that are built as remote from the ground up, like Product Hunt and WordPress are, these companies know how to get productivity out of remote workers.",
+                "“It's sort of like how tech companies are designed from the ground up to attract, retain and motivate tech people. When you have a non-tech company trying to hire tech people, no matter how much money they spend, they can never seem to hire well. And the reason is that they're not designed from the ground up for tech innovation. If you're not designed from ground up to be remote, it gets hard.",
+                "“So even though I think a lot of companies are saying they're hiring remote, I wonder what percentage of the actual placements are remote placements. It'll be a much smaller percentage, but I think that gap will close over time.”"   
+            ]
+        },
+        {
+            "title":"On why remote work is the future",
+            "content":[
+                "“Moving everybody into the Bay Area doesn't scale. The Bay Area is way too expensive, and taxes are high. It's not even the nicest quality of living for what you're paying, and people have lives and families in other countries and other parts of the country.",
+                "“The idea of remote work as a separate category will be gone within a decade or two. The tools still aren't quite good enough, but they're getting better by the day.",
+                "“We're going to see an era of everyone employing remote tech workers, and it's not too far away. In fact, now's the time to prepare for it. But I think in the meantime, the companies that are going to do the best job at it are the ones that are remote companies or that have divisions internally that are remote. It's going to be done through lengthy trials. It's going to be done through new forms of evaluating whether someone can work remotely effectively.”"
+            ]
+        },
+        {
+            "title":"On where remote work is already catching on",
+            "content":[
+                "“Crypto is interesting because these crypto companies are open-source projects for the most part...and because it's decentralized in nature. It's kind of a global movement with mathematicians and cryptographers and hackers working on it. By its nature, it ends up being much more distributed, much more remote.",
+                "“These are obviously very engineering-heavy cultures, and it's easier to do engineering work remotely than other kinds, unfortunately, but that will change. But crypto companies also have a culture of meeting regularly in interesting locations. There's always an interesting blockchain conference going on, so you find the one that's in a nice spot where everybody wants to meet, and everybody flies in.",
+                "“It obviously favors a certain kind of person—a younger person who is unattached, who wants to globe-trot and see cool new places, but often it's way cheaper flying your team to this exotic location than it is to pay them a Bay Area salary.”"
+            ]
+        }
+    ]
+    }
+}

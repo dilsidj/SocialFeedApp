@@ -1,0 +1,188 @@
+{
+    "date":"Mar 26, 2019",
+    "title":"9 Terms You'll See In Your Startup Equity Offer—And What They Actually Mean",
+    "blogDescription":"You thought you were getting that 0.1% equity stake the moment you signed?",
+    "blogImage":"..\\images\\equity_terms_optimized.jpg",
+    "blogImageName":"blog Image",
+    "author":"Caleb Kaiser",
+    "authorLink":"#",
+    "org":"AngelList Talent",
+    "photo_credits":"David Huang",
+    "photo_creditsLink":"#",
+
+    "main_content":{
+
+        "table-of-content":[
+            "1. Four-year monthly vest",
+            "2. One-year cliff",
+            "3. Options",
+            "4. Strike price",
+            "5. Nonqualified Stock Options",
+            "6. Incentive Stock Options",
+            "7. Liquidity event",
+            "8. Accelerated vesting",
+            "9. Preference stack",
+            "Equity is a nice-to-have, not something to rely on"
+        ],
+
+        "intro":[
+            "No one—with the possible exception of finance experts—looks at their equity package and thinks, “Yep, makes sense.”",
+            "To help clarify, we've put together a short glossary of terms you're likely to see in your offer, along with literal—and more practical—definitions."
+        ],
+
+        "blockElement":[
+        {
+            "title":"1. Four-year monthly vest",
+            "content":[
+                "You thought you were getting that 0.1% equity stake the moment you signed? Think again, friend. You're going to receive it piecemeal, on a regular schedule referred to as a “vesting schedule.” Think of it as your company's layaway plan for paying out your equity grant.",
+                {
+                    "heading":"Literal Definition:",
+                    "subcontent":"You will receive a fraction of your equity package each month, and if you're still working there in four years, you will have your entire package."
+                },
+                {
+                    "heading":"Practical Definition:",
+                    "subcontent":"You're probably not going to earn that full equity package."
+                },
+                "People change jobs frequently in tech—more than <a href=\"#\">50% of engineers</a>, for example, plan to change jobs in the next year. Even if you don't change jobs, your company still has to survive four more years for you to earn that vest, and in the startup world, that is never a given."
+            ]
+        },
+        
+        {
+            "title":"2. One-year cliff",
+            "content":[
+                "Companies can't just throw away 0.1% pieces of their equity pie. To protect against employees who are just signing up to collect a few months' worth of equity, companies use a “cliff,” which is a buffer at the beginning of an employee's tenure when vesting is suspended. (In fact, just did the math, and 0.1% of an average pie crust is roughly 0.0282 inches. Like I said, can't be throwing away that kind of pie.)",
+                {
+                    "heading":"Literal Definition:",
+                    "subcontent":"At the end of your first year, you will receive a portion of your equity offer."
+                },
+                {
+                    "heading":"Practical Definition:",
+                    "subcontent":"You're not getting anything unless you work out in this role."
+                },
+                "If inside your first year it becomes clear that you're not a fit for the role—or if the company enters harsher financial times—you may be moving on to your next role without receiving any of your equity package."
+            ]
+        },
+        {
+            "title":"3. Options",
+            "content":[
+                "Owning a fraction of a percent a company's overall equity doesn't mean you're now the boss of 0.2% of the office—though if it did, we'd recommend picking anywhere but that corner with the La Croix fridge. It's just bubbly bathwater. Instead, most startups will give equity to you as “options.”",
+                {
+                    "heading":"Literal Definition:",
+                    "subcontent":"A contract allowing you to buy (or “exercise”) your shares of equity at a later date."
+                },
+                {
+                    "heading":"Practical Definition:",
+                    "subcontent":"You don't own shares of a company yet. You own the right to buy them later at a set price."
+                }
+                
+            ]
+        },
+        {
+            "title":"4. Strike price",
+            "content":[
+                "Part of an options contract is the “strike price,” which is a predetermined price you pay when you exercise your options. The gap between your strike price and the current valuation of your company's shares is called the “spread.”",
+                {
+                    "heading":"Literal Definition:",
+                    "subcontent":"The price you agree to pay for your options."
+                },
+                {
+                    "heading":"Practical Definition:",
+                    "subcontent":"The lower strike price, the more money you stand to make (maybe)."
+                },
+                "If your company's valuation increases by, say, 3x after you join, then when your equity vests, you'll still have the option of buying your shares at the strike price—even though they've become three times as valuable."
+            ]
+        },
+        {
+            "title":"5. Nonqualified Stock Options",
+            "content":[
+                "Because you're an adult, everything in your life has tax implications. And because you're (probably not) a CPA, those tax implications might not be clear. The options given to you in your equity grant will be taxed differently depending on what type of option you receive. Two types are most common, and the first is the Nonqualified Stock Option, or NSO.",
+                {
+                    "heading":"Literal Definition:",
+                    "subcontent":" When exercising your NSOs, the difference between the strike price of your shares and their current market value is treated as ordinary income, and you pay income tax on it."
+                },
+                {
+                    "heading":"Practical Definition:",
+                    "subcontent":"You're paying taxes on money you theoretically have."
+                }
+                
+            ]
+        },
+        {
+            "title":"6. Incentive Stock Options",
+            "content":[
+                "The other common option is the Incentive Stock Option, or ISO.",
+                {
+                    "heading":"Literal Definition:",
+                    "subcontent":"When exercising your ISOs, you don't pay income tax (though it does count towards alternative minimum tax, if that applies to you). Instead, you pay capital gains tax when you sell the shares."
+                },
+                {
+                    "heading":"Practical Definition:",
+                    "subcontent":"You're paying taxes on money you actually have."
+                }
+                
+            ]
+        },
+        {
+            "title":"7. Liquidity event",
+            "content":[
+                "Your equity offer will probably include the phrase “in the event of a liquidity event,” which loosely translates to “if our company is acquired or IPOs.” This is the moment when you get to cash in your equity and build your office dogs the home they deserve.",
+                {
+                    "heading":"Literal Definition:",
+                    "subcontent":"When your company converts shares of ownership into cash—either via one big purchaser (as in an acquisition) or via a public market (as in an IPO)."
+                },
+                {
+                    "heading":"Practical Definition:",
+                    "subcontent":"The moment your equity is actually worth something."
+                }
+                
+            ]
+        },
+        {
+            "title":"8. Accelerated vesting",
+            "content":[
+                "Fun thought experiment: You're two years into a four-year vest, meaning you have about half of your equity grant. Then your company gets acquired. What happens to the rest of your grant?",
+                "A. You get the rest of your grant immediately. B. You work at the purchasing company, continuing on your vesting schedule. C. You forfeit your grant to the tech lords on the purchasing company's board.",
+                "The answer is, it depends. Your contract should explain what happens to your grant in a liquidity event, and if you're lucky, you'll have an accelerated vesting clause.",
+                {
+                    "heading":"Literal Definition:",
+                    "subcontent":" A sped-up vesting period that allows the rest of your equity grant to vest in a shorter period."
+                },
+                {
+                    "heading":"Practical Definition:",
+                    "subcontent":"You get all of your options in time to turn them into money."
+                }
+                
+            ]
+        },
+        {
+            "title":"9. Preference stack",
+            "content":[
+                "When your company is acquired, you might assume you get paid a flat percentage of the acquisition price—but you would be deeply mistaken.",
+                "Imagine that when a company is sold, every equity holder gets in a single-file line to receive their payouts. The people with <a href=\"#\">“liquidation preference”</a> line up at the front, where they receive whatever money they were guaranteed, forming the preference stack. The people toward the back (you) take their percentage of whatever is left.",
+                {
+                    "heading":"Literal Definition:",
+                    "subcontent":"The amount of money guaranteed to investors and preferred share holders."
+                },
+                {
+                    "heading":"Practical Definition:",
+                    "subcontent":"All the money that has to be paid out before you get anything."
+                },
+                "This is a really important concept for valuing your equity. There have been companies in the past that have been purchased for good multiples, but because of a terrible preference stack, employees' equity grants have been rendered worthless. We have a full guide to <a href=\"#\">understanding liquidation preference here</a>."
+            ]
+        },
+        {
+            "title":"Equity is a nice-to-have, not something to rely on",
+            "content":[
+                "Startup equity is a lottery ticket—not a replacement for salary. You want it because it:",
+                [
+                    "Aligns your incentives. If you make the company better, your equity is worth more.",
+                    "Offers a potential big win. Who doesn't want to be build-my-dog-a-theme-park rich?",
+                    "Is an investment you can keep. If you leave your company, you can usually still exercise your vested options."
+                ],
+                "But you can't rely on it, or treat it as a substitute for the salary in your compensation package. You might be joining a company on its way to a giant exit with a small preference stack—leading to a massive windfall for you. You could also join the same company only to see its preference stack become a complete goat rodeo in subsequent funding rounds with no possibility of you seeing a return on your equity.",
+                "Your goal in negotiating equity isn't to get a guaranteed fortune. It's to position yourself for the best shot at a massive bonus years from now—while negotiating a salary you can still be happy with."
+            ]
+        }
+    ]
+    }
+}

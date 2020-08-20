@@ -1,0 +1,185 @@
+{
+    "date":"Jan 7, 2019",
+    "title":"30 Questions to Ask Before Joining a Startup",
+    "blogDescription":"Vetting a startup is inherently difficult.",
+    "blogImage":"..\\images\\Angelist_Illustration_optimized.jpg",
+    "blogImageName":"blog Image",
+    "author":"Caleb Kaiser",
+    "authorLink":"#",
+    "org":"AngelList Talent",
+    "photo_credits":"Mariya Pilipenko",
+    "photo_creditsLink":"#",
+    
+
+    "main_content":{
+
+        "table-of-content":[
+            "1. If you want to make more money",
+            "2. If you want to advance your career quickly",
+            "3. If you want a great culture above all else",
+            "Never ignore red flags—regardless of your priority"
+        ],
+
+        "intro":[
+            "You're trying to evaluate the company while still impressing your interviewers, and that balance can be tricky. At the same time, candidates have a tendency to make this process harder than it needs to be by being uncertain of what they actually want out of a company.",
+            "Understanding what you want out of a new job is a prerequisite to joining the right startup. Before you apply for any new jobs, you need to figure out what your top priority in a new role is. For most candidates, this will be one of three things:",
+            [
+                "Compensation","Career","Culture"
+            ],
+            "For each of these priorities, we have broken down 10 questions that will help you vet whether or not a startup will satisfy your goal.",
+            "Note: There can certainly be overlap. Wanting more cash and a better culture aren't mutually exclusive goals. In reality, however, one of these priorities is going to be more important to you than the others."
+        ],
+        
+        "blockElement":[
+            {
+            "title":"1. If you want to make more money",
+            "content":[
+                "If you want to work in tech and make the most money possible, you should be applying to tech giants (think Facebook, Amazon, Apple, Google). Simply put, they offer the highest compensation in the industry.",
+                "However, for many people, working at a startup will always be preferable to working at a giant corporation. Some people prefer the high risk, high reward potential of owning equity in a startup. Others simply can't work in a non-startup environment.",
+                "If you'd rather take a chance at being an early employee at the next Google than being employee 85,000 at a tech giant, or if you just love startups but want to maximize your income, you need to do three things:",
+                {
+                    "heading":"Figure out how much pure cash you can make.",
+                    "subcontent":[
+                        "This is obvious, but you want to establish that you'll be making the most cash possible via your salary and bonuses. Additionally, you want to make sure there is a clear path for your salary to increase as you progress in the company.",
+                        "Ask these three questions to figure out your immediate earning potential with this company:",
+                        [
+                            "<b><em>“What is the salary range for this role?”<\/em><\/b> Simple, but critical. A higher range means the potential for more money.",
+                            "<b><em>“How are raises calculated and awarded?”<\/b><\/em> You want to make sure raises aren't uncommon in this organization.",
+                            "<b><em>“How do bonuses work?”<\/b><\/em> You want to see generous bonuses that are tied to plausible goals."
+                        ],
+                        "As a bonus question, ask yourself “How competitive is this offer?” by benchmarking it with <a href=\"#\">AngelList's salary tool.</a>"
+                    ]
+                },
+                {
+                    "heading":"Establish the long-term viability of the company.",
+                    "subcontent":[
+                        "Startups crash all the time. A startup can offer you the most generous compensation imaginable—if it crashes in six months, you're still out of work. You need to make sure this startup is going to last.",
+                        "Ask these three questions to get a sense of the startup's long-term viability:",
+                        [
+                            "<b><em>“Do you have product-market fit?”</b></em> If not, they don't have real money, and there's no guarantee they ever will.",
+                            "<b><em>“What is your current growth rate?”</b></em> Your earning potential grows with revenue. Slow growth means less income.",
+                            "<b><em>“What is your runway?”</b></em> The longer the runway, the more financially stable the company is."
+                        ],
+                        "If all three of these questions produce positive answers, then you know you are interviewing at a company that has the momentum, stability, and cash on hand to satisfy your goal."
+                    ]
+                },
+                {
+                    "heading":"Evaluate the real worth of your equity offer.",
+                    "subcontent":[
+                        "Startup equity is a complicated topic that is worthy of an entire book, but for the sake of brevity, we'll keep this simple. You need to know that equity in this startup actually has a chance of producing a nice windfall for you. Also, while other questions in this article can be asked mid-interview, these questions should be asked after you've received an offer.",
+                        "Ask these three questions to establish whether or not equity is valuable at this startup:",
+                        [
+                            "<b><em>“What percent of the company do these shares represent?”</b></em> Your percentage of ownership means more than your number of shares.",
+                            "<b><em>“What is your total preference stack?”</b></em> The more owed in <a href=\"#\">liquidation preference</a>, the less your equity is likely worth.",
+                            "<b><em>“What's the minimum price you would exit for?”</b></em> This gives you a reference point for valuing your potential payout."
+                        ],
+                        "If the startup is offering you a good percentage of the company, isn't carrying an insane preference overhang, and would like to exit at a realistically high price (or IPO), your equity is in good shape."
+                    ]
+                }
+            ]
+            },
+            {
+                "title":"2. If you want to advance your career quickly",
+                "content":[
+                    "If you're looking to move forward in your career—whether that means stepping into more senior positions, or switching to a different role entirely—you need to use a completely different framework for evaluating this startup.",
+                    "Instead of thinking of the money you'll make immediately by joining this startup, you need to think of how this startup will affect your career years from now. To do that, you need to do three things:",
+                    {
+                        "heading":"Chart your room for growth in this company.",
+                        "subcontent":[
+                            "Many startups suffer from overly flat structures, in which it can be next to impossible for a team member to step up and take on a more senior position. You want to avoid getting trapped at all costs.",
+                            "Ask these three questions to understand your growth potential within this startup:",
+                            [
+                                "<b><em>“What progression do you envision for someone in this role?”</b></em> You want a company that plans for your growth.",
+                                "<b><em>“Does this role contribute to higher-level decisions?”</b></em> The more responsibility you get out of the gate, the better.",
+                                "<b><em>“Will I be able to learn new skills and technologies in this role?”</b></em> You don't want to get stuck maintaining legacy code."
+
+                            ],
+                            "If this role is going to allow you to engage with high-level business strategy, learn new in-demand skills and technology, and move quickly through the company, then this startup is offering you a high growth potential."
+                        ]
+                    },
+                    {
+                        "heading":"Decide if this startup will open doors for you later in your career.",
+                        "subcontent":[
+                            "Joining the right startup will allow you not only to grow within the company, but will unlock new opportunities for you even after you've moved on. The network the startup gives you—and the brand it allows you to put on your resume—are incredibly important factors to consider.",
+                            "Ask yourself these three questions to discern whether or not this startup will help you later in your career:",
+                            [
+                                "<b><em>“Does this startup have a big 'brand' already?”</b></em> Answer this yourself. Being an alumni of a famous company will qualify you for later opportunities.",
+                                "<b><em>“What are the founders' backgrounds?”</b></em> If the founders have had successful exits in the past, they're great relationships for you to have.",
+                                "<b><em>“What are the backgrounds of the people on your team?”</b></em> In general, you want to work with world-class people. The more impressive your team members are, the better your network will be."
+                            ],
+                            "Joining a startup with a respectable brand, whose founders and team members could potentially form an incredible network for you in the future, is a great career move."
+                        ]
+                    },
+                    {
+                        "heading":"Determine where you want to be and if this startup will get you there.",
+                        "subcontent":[
+                            "You will have to ask yourself, not an interviewer, all of these questions. Candidates often hurt themselves by settling for startups that, on paper, seem like smart career moves, but in reality, are the furthest thing from what they want.",
+                            "Ask these three questions to figure out whether not this startup can get you what you want, career-wise:",
+                            [
+                                "<b><em>“Is this startup in the field you ultimately want to work in?”</b></em> If there's a field you're incredibly passionate about, join it. Don't waste time.",
+                                "<b><em>“Will this startup expose you to technology and problems that excite you?”</b></em> You will not do your best work if you aren't excited about it.",
+                                "<b><em>“Does this startup have the sort of role you'd ultimately like to be in?”</b></em> If you'd like to be a PM, but this company doesn't have PMs, don't accept a different role hoping you can change the company's strategy."
+                            ],
+                            "As a bonus question, ask yourself “Do I know any investors or founders who can share insight with me?” Any investor or founder familiar with the company will be able to give you some insight as to whether or not this would be a good career move."
+                        ]
+                    }
+                ]
+
+            },
+            {
+                "title":"3. If you want a great culture above all else",
+                "content":[
+                    "For many candidates, working in a company where culture fits their lifestyle is far more important than maximizing their income or career potential. To evaluate how well you'll fit into a startup's culture, you need to do three things:","However, for many people, working at a startup will always be preferable to working at a giant corporation. Some people prefer the high risk, high reward potential of owning equity in a startup. Others simply can't work in a non-startup environment.",
+                    {
+                        "heading":"Get a sense of this company's values.",
+                        "subcontent":[
+                            "Culture begins with a company's core values and principles. To understand whether or not you'd fit into their culture, you have to know if you agree with their values.",
+                            "Ask these three questions to get a better picture of the company's culture, and the values that drive it:",
+                            [
+                                "<b><em>“What are this company's core values?”</b></em> A company with a strong culture will have values that go deeper than buzzwords.",
+                                "<b><em>“How are these values reflected in company processes and policy?”</b></em> You can measure how important culture is by how prominently it features in business decisions.",
+                                "<b><em>“What kind of people—who are otherwise successful—don't work out here?”</b></em> A strong culture means that some people won't work out at the company, not because they're untalented, but because their personalities don't fit."
+                            ],
+                            "As a bonus question, ask yourself “Do I embody this culture?” If so, this company may be a perfect fit for you."
+                        ]
+                    },
+                    {
+                        "heading":"Evaluate the company's communication style.",
+                        "subcontent":[
+                            "A big, and often ignored, part of enjoying life at a startup is fitting into its communication style. For example, if you're a quiet, head-down type of worker, you may not enjoy your day-to-day in a chatty, open office layout.",
+                            "Ask these three questions to get a sense of the company's communication style:",
+                            [
+                                "<b><em>“What is the general level of socializing?”</b></em> If constant conversation stresses you, or if it energizes you, this is crucial information.",
+                                "<b><em>“Do team members have structured 1-on-1s?”</b></em> If you need a structured process for communicating with leadership, 1-on-1s are huge.",
+                                "<b><em>“What are company social events like?”</b></em> If you hate socializing after work, a mandatory weekly happy hour will probably be soul crushing for you."
+                            ],
+                            "You want a team whose communication style is effortless for you. If something as basic and unavoidable as communicating with your team causes friction for you, you're probably in the wrong place."
+                        ]
+                    },
+                    {
+                        "heading":"Gauge the flexibility this company provides employees.",
+                        "subcontent":[
+                            "Whether you want a culture where you can take time off at your discretion, or you want a culture in which everyone works into the evening, understanding the flexibility of a startup is crucial.",
+                            "Ask these three questions to understand the startup's flexibility:",
+                            [
+                                "<b><em>“What is the policy on remote work?”</b></em> Being able to work from home is a good indicator of overall flexibility—and a great perk if you want to spend more time at home.",
+                                "<b><em>“What is the vacation policy?”</b></em> Depending on your life situation, you may need flexible time off.",
+                                "<b><em>“Did the founders take vacations this year?”</b></em> Whether you get unlimited vacation time or two weeks PTO, the important thing is that people in the company actually use their vacations."
+                            ],
+                            "As a bonus question, ask yourself “Are there other people in similar life situations to mine working here?” While you obviously won't have complete access to employees' life stories, look around the office and get a feel for the people that work there. If the company only attracts people of a certain age and background, it's policies are probably tailored to their needs."
+                        ]
+                    }
+                ]
+            },
+            {
+                "title":"Never ignore red flags—regardless of your priority",
+                "content":[
+                    "Just because you choose to vet a company for one of the above priorities doesn't mean you can completely ignore the others. A company in great financial shape is still likely to fail if they have an absolutely toxic culture. A company with an amazing culture will fail if they can't make money.",
+                    "While you should pick one priority and optimize for it, be cognizant of the others. You can ask all 30 of these questions, and simply place more weight on the answers you're prioritizing.",
+                    "No career move comes without risk, but by looking at your potential new startup through the above three lenses—and emphasizing the one that matches your priorities—you'll have the highest chance of landing in the best spot for you."
+                ]
+            }
+        ],
+        "signIn":"If you're ready to explore what startup opportunities are out there, <a href=\"#\">sign up for a free AngelList account</a> to get started."
+    }
+}
