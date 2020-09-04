@@ -1,0 +1,275 @@
+$gray-background:rgb(215, 215, 215);
+$white-background:rgb(255, 255, 255);
+$violet-background:rgb(104, 0, 87);
+$font-medium:14px;
+$font-small:12px;
+
+.header{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    background-color: $white-background;
+    box-shadow: 1px 3px rgba(170, 170, 170, 0.603);
+    position: fixed;
+    top: 0;
+}
+
+.cheronRightIcon{
+    font-size: 15px;
+    padding: 13px 0;
+}
+
+.backwardIcon{
+    margin:auto 40px auto 30px;
+}
+
+.mobileViewMenu{
+    position: absolute;
+    right: 20px;
+    display: none;
+}
+
+.filepath{
+    display: flex;
+    margin: auto 40px auto 15px;
+    font-size: $font-medium;
+    
+    p{
+        padding: 12px 10px;
+        margin: 0;
+    }
+     p:last-child{
+        font-weight: 500;
+    }
+}
+
+.icon{
+    font-size: 20px;
+    padding: 7px 0px;
+    margin: 0;
+}
+
+.profile{
+    display: flex;
+    padding: 15px 20px;
+}
+
+.profile img, .shareMessage img, .messageBlock img{
+    height: 50px;
+    border-radius: 50%;   
+}
+
+.messageBlock img{
+    border:3px solid $violet-background;
+}
+
+.messagerName{
+    font-weight: 500;  
+}
+
+.messagerDetails p,.role,.messagedTime{
+    margin: 0;
+    margin-left: 10px;
+}
+.profileName{
+    padding-left: 10px;
+}
+
+.recentlyAddedHead{
+    padding-left: 25px;
+    font: {
+        size:$font-small;
+        weight:700;
+    }
+}
+
+.leftMenu{
+    width: 250px;
+    position: fixed;
+    float: left;
+    top:52px;
+    bottom: 0px;
+    overflow-y: auto;
+    background-color: $white-background;
+
+    .menuItem:nth-child(2) {
+        background-color: $violet-background;
+        color:$white-background;
+    }
+}
+
+.menuItem{
+    display: flex;
+    padding-left: 25px;
+    padding-right: 15px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: $font-small;
+    p{
+        margin: 0;
+    }
+}
+
+
+.menuTitle{
+    display: flex;
+    align-items: center;
+
+    p{
+        padding-left:15px ;
+        /* font-size: 12px; */
+    }
+}
+
+.notification{
+    font-size: 10px;
+    color: rgb(185, 185, 185);
+}
+
+
+.moreMenu{
+    text-align: center;
+    margin:10px 30px;
+    padding:10px;
+    background-color: $gray-background;
+    border-radius: 10px;
+    font: {
+        size: $font-small;
+        weight:700;
+    }
+}
+
+.moreMenu {
+    p{
+        margin: 0;
+        align-items: center;
+        font-size: $font-small;
+    }
+    svg{
+        font-size:10px
+    }
+}
+
+.content{
+    margin-left: 250px;
+    margin-top: 50px;
+    padding:25px 0px;
+    background-color:$gray-background;
+}
+
+.shareMessage, .messageBlock{
+    margin:20px auto 0 auto;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: $white-background;
+}
+
+.shareMessageHead{
+    display: flex;
+}
+
+.messageBox{
+    margin-left: 20px;
+    height: 15px;
+    padding: 15px;
+    background-color: $gray-background;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.addAttachment, .captureMessage, .voiceMessage, .shareMessageOption{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shareMessageOption{
+    margin:10px 10px 0px 75px;
+    p{
+        margin: 0;
+        margin-left: 10px;
+        font-size: $font-medium;
+    }
+}
+
+.messagerDetails{
+    display: flex;
+}
+
+.messageContent{
+    width: 85%;
+    line-height: 1.5;
+}
+
+.messageBlockOption{
+    margin-left: auto;
+}
+
+
+// responsive
+
+@media screen and (max-width: 720px) {
+    .mobileViewMenu{
+        padding: 6px 10px;
+        display:block;
+        outline: none;
+        background: none;
+        border: none;
+        font-size:20px;
+           
+    }
+
+    .mobileViewMenu:active{
+        background-color: rgb(201, 201, 201);
+        border-radius: 50%;
+    }
+
+    .leftMenu{
+        right: 0;
+        width: 0px;
+        overflow-y: scroll;
+        transition: 0.3s;
+        
+    }
+
+    .content{
+        margin-left: 0px;
+    }
+    .shareMessage,.messageBlock{
+        margin: 20px auto;
+        width:280px;
+    }
+    
+    .filepath{
+
+        margin:auto 0;
+    }
+    .backwardIcon{
+        margin: auto 20px;
+    }
+    .shareMessageOption{
+        margin:10px 10px 0px 10px;
+        p{
+            font-size: $font-small;
+        }
+    }
+    
+    .messageBox{
+        margin-left: 10px;
+    }
+
+    .profile img, .shareMessage img, .messageBlock img{
+        height: 40px;
+    }
+    .messagerProfile, .messageContent{
+        font-size: $font-medium;
+        
+    }
+    .profileName {
+        padding-left: 10px;
+        font-size: $font-medium;
+    }
+}
