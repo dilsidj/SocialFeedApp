@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import ReactDom from 'react-dom';
 import { FiFileText, GoFile,FaFileSignature, RiUserReceived2Line,RiUserShared2Line,
         HiOutlineUserGroup,BsLayoutTextSidebarReverse , AiOutlineDown,RiFileListLine, GiBrain,FaRegListAlt
         } from "react-icons/all";
@@ -6,7 +7,7 @@ import MenuItem from './MenuItem';
 
 
 class leftMenu extends Component {
-
+    
     myprofile='../assets/images/profile1.jpg';
 
     mobileViewMenu=React.createRef();
@@ -17,15 +18,32 @@ class leftMenu extends Component {
         }
     }
 
+    windowResize=()=>{
+        if(window.innerWidth>720){
+            document.getElementsByClassName("leftMenu")[0].style.width="250px";
+        }
+        else{
+            document.getElementsByClassName("leftMenu")[0].style.width="0px";
+        }
+
+    }
 
     componentDidMount() {
         document.addEventListener("mousedown", this.clickOutsideMenu);
+        window.addEventListener("resize",this.windowResize);  
     }
+    
     componentWillUnmount() {
-      document.removeEventListener("mousedown", this.clickOutsideMenu);
+        document.removeEventListener("mousedown", this.clickOutsideMenu);
+        window.addEventListener("resize",this.windowResize);
     }
 
+    
+    
+    
     render() {
+          
+
         return (
             <div className="leftMenu" ref={this.mobileViewMenu} >
                 <div className="profile">
