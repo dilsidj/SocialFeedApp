@@ -1,0 +1,150 @@
+@import './variables.scss';
+
+
+
+.cards{
+  
+  .wrapper{
+  
+    .show-card{
+      width: calc(100% - 30px);
+      margin-top: 20px;
+      display: flex;
+      padding: 15px;
+      flex-direction: column;
+      background-color: $background-color;
+      border-radius: 20px;
+      box-shadow: 3px 3px 5px #7a7a7a;
+      &:nth-last-child(1){
+        margin-bottom: 20px;
+      }
+
+      
+      .top-show-card{
+        display: flex;
+
+        .show-card-image {
+          width: 70px;
+          display: block;
+
+          img{
+            width: 50px;
+            height: 50px;
+            // border:  3px solid linear-gradient(to right, #90293f, #49315d);
+            border:  3px solid  $shadow-color;
+            border-radius: 50%;
+
+          }
+
+        }
+
+        .show-card-user-details{
+          display: flex;
+          flex-direction: column;
+          width: 90%;
+          margin-left:8px ;
+
+          .user-name{
+            margin: 0;
+            font-size: $title-font-size;
+            line-height: 1;
+            font-weight: $bolder;
+          }
+          
+          .user-role{
+           margin: 0;
+           font-size: $sub-title-font-size;
+           font-weight: $lighter;
+          }
+
+          .user-time{
+            margin: 0;
+            font-size: $parahraph-font-size;
+            font-weight: $lighter;
+           }
+           
+        }
+
+        .show-card-share{
+      
+          .share{
+            margin: 0;
+            font-size: $title-font-size;
+            line-height: 1;
+            font-weight: 700;
+            cursor: pointer;
+          }
+
+        }
+        
+        
+      }
+
+      .bottom-show-card{
+        width: 100%;
+
+        .show-card-content{
+          margin: 0;
+          margin-top: 10px;
+          font-size: $sub-title-font-size;
+          font-weight: $bold;
+          width: 100%;
+        }
+        
+      }
+
+    }
+
+  }
+
+}
+
+
+
+
+
+@media(max-width:$tab-view){
+  .cards{
+    .wrapper{
+      .show-card{
+        .top-show-card{
+          .show-card-user-details{
+            margin-left:10px ;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// "predeploy": "npm run build",
+//     "deploy": "gh-pages -d build",
+//     "homepage": "https://Dillikumardj.github.io/My-First-React-App",
