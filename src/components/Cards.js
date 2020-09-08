@@ -5,7 +5,7 @@ import userImage from '../image/girl-user.jpg';
 import VideocamOutlinedIcon from '@material-ui/icons/VideocamOutlined';
 import CameraEnhanceOutlinedIcon from '@material-ui/icons/CameraEnhanceOutlined';
 import MicNoneOutlinedIcon from '@material-ui/icons/MicNoneOutlined';
-import JSON_items from '../api/items.json';
+// import JSON_items from '../api/items.json';
 
 
 class Cards extends Component {
@@ -60,21 +60,14 @@ class Cards extends Component {
 
   componentDidMount(){
 
-    if(window.localStorage.getItem("items") == null){
+    if(localStorage.getItem("items") == null){
         localStorage.setItem("items",JSON.stringify(this.state.items));
       }
     
     this.setState({
        items:JSON.parse(localStorage.getItem("items"))
     });
-
-    
-    
-    
-    console.log(JSON_items);    
-
-
-
+ 
   }
 
 
@@ -102,14 +95,12 @@ class Cards extends Component {
 			  e.target.scrollTop = e.target.scrollHeight;
 		  }
     
-  	  this.setState({
-    	  value: e.target.value,
-        rows: currentRows < maxRows ? currentRows : maxRows,
-      });
-
+  	
 
 
       this.setState({
+        value: e.target.value,
+        rows: currentRows < maxRows ? currentRows : maxRows,
         currentItem:{
           name:this.props.userDetails.name,
           role:this.props.userDetails.role,
@@ -122,7 +113,7 @@ class Cards extends Component {
 
     addItem(e){
       const newItem= this.state.currentItem;
-      // console.log(newItem);
+      
 
       
       const json_items = JSON.parse(localStorage.getItem("items"));
@@ -171,7 +162,7 @@ class Cards extends Component {
                   <div className="top-fill-card">
                     <img alt="use" src={this.props.userDetails.image} className="fill-card-image" />
                     
-                    <form id="" onSubmit={this.addItem} ref={this.submitRef}>
+                    <form id="" onSubmit={this.addItem} >
                        <textarea type="text" rows={this.state.rows}  
                             placeholder="share something here ...."  
                             className="fill-card-box"

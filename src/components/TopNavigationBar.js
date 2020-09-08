@@ -18,7 +18,7 @@ class TopNavigationBar extends Component {
         
 
         this.toggleNavbar=this.toggleNavbar.bind(this);
-        this.windowSize = this.windowSize.bind(this);
+        // this.windowSize = this.windowSize.bind(this);
         
     }
 
@@ -35,23 +35,27 @@ class TopNavigationBar extends Component {
 
 
 
-    windowSize(){
+    componentDidMount(){
 
-        window.addEventListener("resize",() => {
-            if ( window.innerWidth > 790  &&  this.resizeCount === 1 && this.state.navBarFold === 'no')
-            {
-                this.toggleNavbar();
+        setInterval(()=>{
+            window.addEventListener("resize",() => {
+                if ( window.innerWidth > 790  &&  this.resizeCount === 1 && this.state.navBarFold === 'no')
+                {
+                    this.toggleNavbar();
+                    this.resizeCount=0;
+                }
+            });
+    
+            if(window.innerWidth <= 790 && this.state.navBarFold === 'no'){
+                this.resizeCount=1;
+            }
+    
+            if(window.innerWidth <= 790 && this.state.navBarFold === 'yes'){
                 this.resizeCount=0;
             }
-        });
 
-        if(window.innerWidth <= 790 && this.state.navBarFold === 'no'){
-            this.resizeCount=1;
-        }
-
-        if(window.innerWidth <= 790 && this.state.navBarFold === 'yes'){
-            this.resizeCount=0;
-        }
+        },1000)
+        
 
         //  console.log(this.state.navBarFold,this.resizeCount );
         
@@ -74,7 +78,7 @@ class TopNavigationBar extends Component {
                     <p className="social-feed">Social Feed</p>
                 </div>
                 
-                {this.windowSize()}
+                {/* {this.windowSize()} */}
 
                 <div className="navbar-icons">
                     <button type="button" className="icon" onClick={this.toggleNavbar}>

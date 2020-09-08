@@ -1,12 +1,12 @@
 import React from 'react';
 import '../Styles/ShowCards.scss';
-import moment from 'moment';
+import Time from './Time.js';
 
 function ShowCards(props) {
 
 
     const items=props.items;
-    // const details=props.details;
+
     const listItems = items.map((item,key) =>
         {
             return <div  className="show-card" key={key}>
@@ -20,7 +20,7 @@ function ShowCards(props) {
                             <div className="show-card-user-details">
                                 <h2 className="user-name">{item.name}</h2>
                                 <p className="user-role">{item.role}</p>
-                                <p className="user-time">{moment(item.time).fromNow()}</p>
+                                <p className="user-time"><Time time={item.time} /></p>
                             </div>
 
                             <div className="show-card-share">
