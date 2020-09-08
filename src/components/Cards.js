@@ -5,7 +5,7 @@ import userImage from '../image/girl-user.jpg';
 import VideocamOutlinedIcon from '@material-ui/icons/VideocamOutlined';
 import CameraEnhanceOutlinedIcon from '@material-ui/icons/CameraEnhanceOutlined';
 import MicNoneOutlinedIcon from '@material-ui/icons/MicNoneOutlined';
-
+import JSON_items from '../api/items.json';
 
 
 class Cards extends Component {
@@ -49,9 +49,32 @@ class Cards extends Component {
 
     }
 
+    
+
 
     this.handleInput=this.handleInput.bind(this);
     this.addItem=this.addItem.bind(this);
+  }
+
+
+
+  componentDidMount(){
+
+    if(window.localStorage.getItem("items") == null){
+        localStorage.setItem("items",JSON.stringify(this.state.items));
+      }
+    
+    this.setState({
+       items:JSON.parse(localStorage.getItem("items"))
+    });
+
+    
+    
+    
+    console.log(JSON_items);    
+
+
+
   }
 
 
@@ -77,12 +100,12 @@ class Cards extends Component {
 		  if (currentRows >= maxRows) {
 			  e.target.rows = maxRows;
 			  e.target.scrollTop = e.target.scrollHeight;
-		}
+		  }
     
   	  this.setState({
     	  value: e.target.value,
         rows: currentRows < maxRows ? currentRows : maxRows,
-    });
+      });
 
 
 
@@ -94,16 +117,23 @@ class Cards extends Component {
           text:e.target.value,
           time:Date.now()
         }
-      })
+      });
     }
 
     addItem(e){
       const newItem= this.state.currentItem;
       // console.log(newItem);
+
+      
+      const json_items = JSON.parse(localStorage.getItem("items"));
+      
       if(newItem.text!==""){
-        const newitems=[newItem,...this.state.items];
+        const newitems=[newItem,...json_items];
+        
+        localStorage.setItem("items",JSON.stringify(newitems));
+
         this.setState({
-          items:newitems,
+          items:JSON.parse(localStorage.getItem("items")),
           currentItem:{
             text:'',
             key:'',
@@ -114,6 +144,8 @@ class Cards extends Component {
           minRows:1
         })
       }
+
+      
       
     }
 
