@@ -1,19 +1,5 @@
 {
   "files": {
-<<<<<<< HEAD
-    "main.css": "/socialFeedApp/static/css/main.d4e57616.chunk.css",
-    "main.js": "/socialFeedApp/static/js/main.dcdbb467.chunk.js",
-    "main.js.map": "/socialFeedApp/static/js/main.dcdbb467.chunk.js.map",
-    "runtime-main.js": "/socialFeedApp/static/js/runtime-main.fdb1914c.js",
-    "runtime-main.js.map": "/socialFeedApp/static/js/runtime-main.fdb1914c.js.map",
-    "static/js/2.aef74f12.chunk.js": "/socialFeedApp/static/js/2.aef74f12.chunk.js",
-    "static/js/2.aef74f12.chunk.js.map": "/socialFeedApp/static/js/2.aef74f12.chunk.js.map",
-    "index.html": "/socialFeedApp/index.html",
-    "precache-manifest.37a3d82709ddbdb0c0e3899776e6d42d.js": "/socialFeedApp/precache-manifest.37a3d82709ddbdb0c0e3899776e6d42d.js",
-    "service-worker.js": "/socialFeedApp/service-worker.js",
-    "static/css/main.d4e57616.chunk.css.map": "/socialFeedApp/static/css/main.d4e57616.chunk.css.map",
-    "static/js/2.aef74f12.chunk.js.LICENSE.txt": "/socialFeedApp/static/js/2.aef74f12.chunk.js.LICENSE.txt",
-=======
     "main.css": "/socialFeedApp/static/css/main.149f2baa.chunk.css",
     "main.js": "/socialFeedApp/static/js/main.ed6f03f7.chunk.js",
     "main.js.map": "/socialFeedApp/static/js/main.ed6f03f7.chunk.js.map",
@@ -26,20 +12,13 @@
     "service-worker.js": "/socialFeedApp/service-worker.js",
     "static/css/main.149f2baa.chunk.css.map": "/socialFeedApp/static/css/main.149f2baa.chunk.css.map",
     "static/js/2.78a71e53.chunk.js.LICENSE.txt": "/socialFeedApp/static/js/2.78a71e53.chunk.js.LICENSE.txt",
->>>>>>> 80760cd021e7c306a945b7a20ebdf21c0e4118ac
     "static/media/girl-user.jpg": "/socialFeedApp/static/media/girl-user.42a59a6b.jpg",
     "static/media/user-1.jpg": "/socialFeedApp/static/media/user-1.537386ab.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fdb1914c.js",
-<<<<<<< HEAD
-    "static/js/2.aef74f12.chunk.js",
-    "static/css/main.d4e57616.chunk.css",
-    "static/js/main.dcdbb467.chunk.js"
-=======
     "static/js/2.78a71e53.chunk.js",
     "static/css/main.149f2baa.chunk.css",
     "static/js/main.ed6f03f7.chunk.js"
->>>>>>> 80760cd021e7c306a945b7a20ebdf21c0e4118ac
   ]
 }
