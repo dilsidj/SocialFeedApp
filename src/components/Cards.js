@@ -18,7 +18,7 @@ class Cards extends Component {
 
     this.state = {
 
-       items:[
+       dummyItems:[
               {
                 name:'Oslo',
                 role:'Marketing Expert',
@@ -31,10 +31,10 @@ class Cards extends Component {
                 role:'Marketing Expert',
                 image: userImage,
                 text:"Marketing tips are here : Reach influencers , Decision and l... Marketing tips are here : Reach influencers , Decision and l... Marketing tips are here : Reach influencers , Decision and l...",
-                time:Date.now()
+                time:Date.now() + 1 
               }
             ],
-
+       items:[],
        currentItem:{
         name:'',
         role:'',
@@ -46,7 +46,7 @@ class Cards extends Component {
        rows: 1,
 			 minRows: 1,
 			 maxRows: 4,
-
+       addingCard:false
     }
 
     
@@ -54,20 +54,30 @@ class Cards extends Component {
 
     this.handleInput=this.handleInput.bind(this);
     this.addItem=this.addItem.bind(this);
+    this.deleteItem=this.deleteItem.bind(this);
+    this.updateEditedText = this.updateEditedText.bind(this);
   }
 
 
 
   componentDidMount(){
 
-    if(localStorage.getItem("items") == null){
-        localStorage.setItem("items",JSON.stringify(this.state.items));
-      }
+    console.log(localStorage.getItem("items") === "null" + localStorage.getItem("items") === "[]");
+
+    if(localStorage.getItem("items") === "null" || localStorage.getItem("items") === "[]")
+      localStorage.setItem("items",JSON.stringify(this.state.dummyItems));
     
     this.setState({
        items:JSON.parse(localStorage.getItem("items"))
     });
+
+    
  
+  }
+
+  componentDidUpdate(){
+    
+      localStorage.setItem("items",JSON.stringify(this.state.items));
   }
 
 
@@ -93,7 +103,7 @@ class Cards extends Component {
 		  if (currentRows >= maxRows) {
 			  e.target.rows = maxRows;
 			  e.target.scrollTop = e.target.scrollHeight;
-		  }
+    }
     
   	
 
@@ -107,15 +117,19 @@ class Cards extends Component {
           image:this.props.userDetails.image,
           text:e.target.value,
           time:Date.now()
-        }
+        },
+        addingCard:true
       });
+      
+      this.refs.child.toggleCards();
+
     }
+
+
 
     addItem(e){
       const newItem= this.state.currentItem;
-      
-
-      
+    
       const json_items = JSON.parse(localStorage.getItem("items"));
       
       if(newItem.text!==""){
@@ -149,6 +163,33 @@ class Cards extends Component {
         this.addItem();
       }
     }
+
+
+
+    deleteItem(key){
+      const remainingItems = this.state.items.filter(item => item.time !== key);
+      this.setState({items : remainingItems})
+      
+      console.log("deleted" + remainingItems);
+
+    }
+
+
+    updateEditedText(key,text){
+
+      const newItems = this.state.items.map((item,index) =>
+          {
+              if(key === index) item.text = text;
+
+              return item;
+          }
+      )
+
+      this.setState({items:newItems})
+
+
+    }
+
 
     
 
@@ -200,7 +241,12 @@ class Cards extends Component {
 
 
                 
-                <ShowCards items ={this.state.items}/>
+                <ShowCards  items ={this.state.items} 
+                            ref="child"
+                            deleteItem={this.deleteItem}  
+                            updateEditedText ={ this.updateEditedText}
+                            addingCard = {this.state.addingCard}
+                />
 
 
               </div>

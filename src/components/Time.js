@@ -15,7 +15,8 @@ class Time extends Component {
 
     componentDidMount(){
         this.intervalID =  setInterval(() =>{
-            this.setState({timeDiff:moment(this.props.time).fromNow()});
+            if(this.state.time !== moment(this.props.time).fromNow())
+                this.setState({timeDiff:moment(this.props.time).fromNow()});
         },1000);
     }
     
