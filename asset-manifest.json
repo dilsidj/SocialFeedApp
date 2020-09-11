@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/socialFeedApp/static/css/main.149f2baa.chunk.css",
+    "main.js": "/socialFeedApp/static/js/main.ed6f03f7.chunk.js",
+    "main.js.map": "/socialFeedApp/static/js/main.ed6f03f7.chunk.js.map",
+    "runtime-main.js": "/socialFeedApp/static/js/runtime-main.fdb1914c.js",
+    "runtime-main.js.map": "/socialFeedApp/static/js/runtime-main.fdb1914c.js.map",
+    "static/js/2.78a71e53.chunk.js": "/socialFeedApp/static/js/2.78a71e53.chunk.js",
+    "static/js/2.78a71e53.chunk.js.map": "/socialFeedApp/static/js/2.78a71e53.chunk.js.map",
+    "index.html": "/socialFeedApp/index.html",
+    "precache-manifest.d074a08626846bb1c1af0a962b3cf162.js": "/socialFeedApp/precache-manifest.d074a08626846bb1c1af0a962b3cf162.js",
+    "service-worker.js": "/socialFeedApp/service-worker.js",
+    "static/css/main.149f2baa.chunk.css.map": "/socialFeedApp/static/css/main.149f2baa.chunk.css.map",
+    "static/js/2.78a71e53.chunk.js.LICENSE.txt": "/socialFeedApp/static/js/2.78a71e53.chunk.js.LICENSE.txt",
+    "static/media/girl-user.jpg": "/socialFeedApp/static/media/girl-user.42a59a6b.jpg",
+    "static/media/user-1.jpg": "/socialFeedApp/static/media/user-1.537386ab.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fdb1914c.js",
+    "static/js/2.78a71e53.chunk.js",
+    "static/css/main.149f2baa.chunk.css",
+    "static/js/main.ed6f03f7.chunk.js"
+  ]
+}
